@@ -1,7 +1,1 @@
-+ Nuxt3
-+ TypeScript
-+ UnoCSS
-+ PrimeVue
-+ InspiaUI
-+ CSS Icon
-  + PrimeIcons
+![132301](https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20241005/132301.webp)
