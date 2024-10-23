@@ -3,7 +3,9 @@ export default defineNuxtConfig({
   devServer: {
     port: 3001
   },
+
   devtools: { enabled: false },
+
   /** 应用程序配置 */
   app: {
     head: {
@@ -18,13 +20,16 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   /** css 样式 */
   css: [
     'primeicons/primeicons.css',
   ],
+
   components:[
     { path: '~/components',pathPrefix: false},
   ],
+
   /** modules 模块 */
   modules: [
     '@primevue/nuxt-module',
@@ -33,10 +38,12 @@ export default defineNuxtConfig({
     '@vueuse/motion/nuxt',
     '@nuxt/image'
   ],
+
   /** primevue 配置 */
   primevue: {
     importTheme: { from: '@/themes/myPrimevue.ts' },
   },
+
   /** motion 配置 */
   runtimeConfig: {
     public: {
@@ -57,5 +64,7 @@ export default defineNuxtConfig({
         }
       }
     }
-  }
+  },
+
+  compatibilityDate: '2024-10-23'
 })

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-full flex justify-center py-10">
     AppFooter
   </div>
 </template>
